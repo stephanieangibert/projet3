@@ -1,0 +1,415 @@
+html,body{
+    width: 1335px;
+    margin: 0 auto;
+    background-color: lightslategrey;
+   
+}
+header{
+    margin: 0 auto;
+    background-color: black;
+    width: 100%;
+  
+}
+h1{
+    color: orangered;
+    font-size: 260%;
+    padding-top: 2%;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+ 
+    
+}
+h3{
+    color: white;
+    padding-bottom: 2%;
+    font-size: 200%;
+    margin-top: 8px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+   
+}
+.slide{
+    text-align: center;
+}
+#slides{
+    overflow: hidden;
+    height: 374px;
+     width: 740px; 
+  
+    margin: 0 auto;
+   border-radius: 22px;
+    
+}
+.diapo{
+    background-color: lightslategrey;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+img{
+    background-size: cover;
+    height: 374px;
+    width:740px;
+}
+.slides {
+	position: relative;
+}
+#slides{
+    position: relative;
+}
+
+.commentaire {
+	position: absolute;
+	top: 70%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	background-color: orangered;
+	width: 100%;
+}
+
+.active {
+	opacity: 1;
+	z-index: 2;
+	position: absolute;
+}
+
+.slide {
+	opacity: 0;
+	z-index: 1;
+	position: absolute;
+}
+p.commentaire{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 130%;
+}
+.fa-chevron-circle-right {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	font-size: 200%;
+	z-index: 3;
+	color: orangered;
+}
+
+.fa-chevron-circle-left {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	font-size: 200%;
+	z-index: 3;
+	color: orangered;
+}
+
+.fa-play-circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 200%;
+	z-index: 3;
+	color: orangered;
+}
+.fa-pause-circle{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 200%;
+	z-index: 3;
+	color: orangered;
+
+}
+.resa {
+   
+    width: 100%;
+    background-color: darkslategray;
+    padding-top:22px;
+    padding-bottom: 22px;
+   
+    
+}
+.reservez {
+    width: 220px;
+    padding-top:12px;
+    padding-bottom: 12px;
+    font-size: 130%;
+	border-top: solid 3px black;
+	border-bottom: solid 3px black;
+	text-align: center;
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    animation: pulse 2s ease-in-out infinite both;
+
+   
+}
+@keyframes pulse{
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+#map {
+   
+    border-radius: 5%;
+    height: 374px;
+    width:740px; 
+    
+    
+    
+}
+ .map1 {
+    height: 374px;
+    width:740px; 
+    margin-left:22%;  
+   
+    
+} 
+.map2 {
+    margin-left: 1%;  
+    height: 374px;
+    width:740px; 
+    margin-right: 8%;
+   
+    
+}
+
+.fdCarte{
+    background-color: lightslategrey;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 5%;
+    position: relative;
+    
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width:400px ;
+    height:400px;
+}
+label{
+    text-align: center;
+    background-color: orangered;
+    width: 140px;
+    color: white;   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+    
+} 
+input{
+    text-align: center; 
+    border: none;
+    width: 300px;
+    
+}
+input.pres{
+    width: 400px;
+    height: 52px;
+}
+.NomStation{
+    background-color: black;
+    color: white;  
+    padding-top: 16px; 
+    padding-bottom: 16px;
+    font-weight: bold;
+     width:400px ; 
+}
+.pres{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 52px;
+    justify-content: center;
+   
+    
+}
+.NomStation1{
+    width: 400px;
+    background-color: black;
+    color: white;  
+    padding-bottom: 16px;
+}
+#resa {
+    width: 100px;
+    height: 36px;
+	border-top: solid 3px black;
+	border-bottom: solid 3px black;
+	text-align: center;
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    color:white;
+    background-color: black;
+    position: absolute;
+    top:93%;
+    left:200%;
+    margin-top: 1%;
+    cursor: pointer;
+    
+   
+}
+#insc{
+    
+    color: white;
+    background-color: black;
+    padding-bottom: 8px;
+    height: 8px;
+
+}
+form{
+    height: 360px;
+   
+    margin: 0;
+}
+
+canvas{
+   width: 390px;
+   height: 150px;
+   border: black solid 2px;
+   color: black;
+}
+.formulaire2{
+    height: 360px;
+    width: 400px;
+}
+.presForm2{
+    height: 10px;
+}
+label.presForm2{
+    height: 18px;
+}
+input.presForm2{
+    height: 20px;
+}
+.presForm2{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 40px;
+    justify-content: center;
+}
+#insc.presForm2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sign{
+    font-weight: bold;
+    text-align: center;
+}
+#enregistrer {
+	border-top: solid 3px black;
+	border-bottom: solid 3px black;
+	text-align: center;
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 20px;
+    margin-right: 1%;
+
+}
+
+#effacer {
+	border-top: solid 3px black;
+	border-bottom: solid 3px black;
+	text-align: center;
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 20px;
+}
+.bouton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#reservation{
+    width: 100%;
+    background-color:green;
+    color: white;
+    font-weight: bold;
+    font-size: 120%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 0%;
+    
+}
+#changerStation {
+	border-top: solid 3px green;
+	border-bottom: solid 3px green;
+	text-align: center;
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-top-left-radius: 40px;
+    width: 200px;
+ margin: 10px auto;
+ color: white;
+ background-color: green;
+ font-weight: bold;
+   
+    
+}
+.changement{
+    width: 100%;
+    padding-top: 20px;
+   padding-bottom: 20px;   
+  
+}
+.chang{
+    background-color: lightslategrey;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 0%;
+}
